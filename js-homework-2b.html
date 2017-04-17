@@ -18,4 +18,25 @@ console.log(game2);
 var game3 = basketballScore(62, 62);
 console.log(game3);
 
+function greetingName(yourName) {
+  if (yourName == 'Aaron') {
+    return 'Hello, group member';
+  }
+  else if (yourName == 'Andrew') {
+    return 'Hello, teacher';
+  }
+  else {
+    return 'Hello!';
+  }
+}
+var name1 = greetingName('Aaron');
+console.log(name1);
+var name2 = greetingName('Andrew');
+console.log(name2);
+var name3 = greetingName('Allen');
+console.log(name3);
+
+var promptName = prompt("What is your name?");
+console.log(greetingName(promptName));
+
 </script>

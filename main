@@ -17,5 +17,8 @@ console.log(name2);
 var name3 = hello("George");
 console.log(name3);
 
+var name = prompt("What is your name?");
+console.log(hello(name));
+
 </script>
 
